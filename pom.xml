@@ -6,10 +6,13 @@
     <version>1.0</version>
     <packaging>pom</packaging>
     <name>Project Build</name>
-
+<profiles>
+    <profile>
     <modules>
         <module>kubernetes</module>
-    </modules>
+</modules>
+</profile>
+</profiles>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
